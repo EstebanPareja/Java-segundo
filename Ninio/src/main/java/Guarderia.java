@@ -18,13 +18,59 @@ public Guarderia(String nombre){
 public void AgregarEstudiante(Estudiante estudiante){
     /// est corresponde a los estudiates de la clase ///
     for (Estudiante est : ListaEstudiantes) {
-        if (estudiante.getId().equals(est.getId())) {
+        if (est.getId().equals(estudiante.getId())) {
             JOptionPane.showMessageDialog(null, "Código de estudiante ya existente");
             return;
         }
     }
         ListaEstudiantes.add(estudiante);
         JOptionPane.showMessageDialog(null, "Estudiante agregado");
+
+}
+
+public void eliminarEstudiante(String Id){
+    boolean eliminado = false;
+    for (int i = 0; i <ListaEstudiantes.size(); i++){
+        if(ListaEstudiantes.get(i).getId().equals(Id)){
+            ListaEstudiantes.remove(i);
+            eliminado = true;
+            break;
+        }
+    }
+    if (eliminado){
+        JOptionPane.showMessageDialog(null, "Estudiante eliminado");
+    } else {
+        JOptionPane.showMessageDialog(null, "Estudiante no eliminado");
+    }
+}
+    public void eliminarEstudiantesMayores(String Id){
+        boolean eliminado = false;
+        for (int i = 0; i <ListaMayores.size(); i++){
+            if(ListaMayores.get(i).getId().equals(Id)){
+                ListaMayores.remove(i);
+                eliminado = true;
+                break;
+            }
+        }
+        if (eliminado){
+            JOptionPane.showMessageDialog(null, "Estudiante eliminado");
+        } else {
+            JOptionPane.showMessageDialog(null, "Estudiante no eliminado");
+        }
+    }
+public void actualizarEstudiante(String id, Estudiante estudiante){
+    boolean estudianteEditado = false;
+    for (int i = 0; i < ListaEstudiantes.size(); i++){
+        if(ListaEstudiantes.get(i).getId().equals(id)){
+            ListaEstudiantes.set(i, estudiante);
+            estudianteEditado = true;
+        }
+    }
+    if (estudianteEditado){
+        JOptionPane.showMessageDialog(null, "Estudiante actualizado");
+    } else {
+        JOptionPane.showMessageDialog(null, "Estudiante no actualizado");
+    }
 
 }
 public void MayoresDeCinco(Estudiante estudiante){
