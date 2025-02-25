@@ -16,10 +16,53 @@ public class Estudiante {
         this.nombreAcudiente = nombreAcudiente;
         this.numeroContacto = numeroContacto;
     }
+    public String getNombre(){
+        return nombre;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public int getEdad(){
+        return edad;
+    }
+    public void setEdad(int edad){
+        this.edad = edad;
+    }
+    public String getGenero(){
+        return genero;
+    }
+    public void setGenero(String genero){
+        this.genero = genero;
+    }
+    public String getId(){
+        return id;
+    }
+    public  void setId(String id){
+        this.id = id;
+    }
+    public String getAlergias(){
+        return alergias;
+    }
+    public void setAlergias(String alergias){
+        this.alergias = alergias;
+    }
+    public String getNombreAcudiente(){
+        return nombreAcudiente;
+    }
+    public void setNombreAcudiente(String nombreAcudiente){
+        this.nombreAcudiente = nombreAcudiente;
+    }
+    public String getNumeroContacto(){
+        return numeroContacto;
+    }
+    public void setNumeroContacto(String numeroContacto){
+        this.numeroContacto = numeroContacto;
+    }
+
     public String toString(){
         return "Nombre: "+nombre+"\n"+"Edad: "+edad+"\n"
                 +"Género: "+genero+"\n"+"id: "+ id + "\n"
-                +"Alérgias: "+ alergias +"\n"+"Nombre del acudiente: "+nombreAcudiente+"\n"
+                +"Alergias: "+ alergias +"\n"+"Nombre del acudiente: "+nombreAcudiente+"\n"
                 + "Número de contacto: "+ numeroContacto;
 
 
