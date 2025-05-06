@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2298e3a-b664-4374-96b6-73be87417f31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Escuela/src/main/java/Docente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Escuela/src/main/java/Escuela.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Escuela/src/main/java/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Escuela/src/main/java/Materia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Escuela/src/main/java/Nota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tienda/src/main/java/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tienda/src/main/java/DetallesVenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tienda/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tienda/src/main/java/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tienda/src/main/java/Tienda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tienda/src/main/java/Venta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Guarderia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guarderia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ninio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ninio/src/main/java/Guarderia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ninio/src/main/java/Guarderia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ninio/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ninio/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -96,6 +80,9 @@
       <workItem from="1741368772862" duration="3121000" />
       <workItem from="1741705133312" duration="622000" />
       <workItem from="1741707358428" duration="838000" />
+      <workItem from="1741826821529" duration="22000" />
+      <workItem from="1741826875780" duration="1130000" />
+      <workItem from="1744766606173" duration="2729000" />
     </task>
     <servers />
   </component>
